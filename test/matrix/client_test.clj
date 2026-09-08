@@ -1,6 +1,6 @@
 (ns matrix.client-test
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [matrix.client :as m]))
 
 (defn- fake-io [responses]
