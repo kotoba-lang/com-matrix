@@ -43,6 +43,6 @@ REST-not-Gateway scope cut for the same reason).
 ## Testing
 
 ```bash
-clojure -M:test
-clojure -M:lint
+kbb -M:test
+kbb -M:lint
 ```
